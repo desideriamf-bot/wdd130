@@ -8,6 +8,12 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+
 }
 
 .flex-item {
@@ -21,12 +27,15 @@ body {
 
 .item1 {
     min-height: 100px;
+    flex: 1 1 100%;
 }
 
 .item2 {
     min-height: 200px;
+    flex: 1 1 100%;
 }
 
 .item3 {
     min-height: 300px;
+    flex: 1 1 100%;
 }
