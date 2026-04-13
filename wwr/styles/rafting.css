@@ -367,7 +367,6 @@ border: none;
   width: 150px;
   height: 150px;
   object-fit: cover;
-  align: self-start;
 }
 
 .info h2 {
